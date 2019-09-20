@@ -1,7 +1,6 @@
 // Exporting an object containing all of our models
 
 module.exports = {
-    Note: require("./Article"),
-    User: require("./Comment")
-  };
-  
+  Article: require("./Article"),
+  Note: require("./Note")
+};
